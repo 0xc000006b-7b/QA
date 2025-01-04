@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<navigationModel
+  ns = "http://schemas.android.com?import=com.android.tools.idea.editors.navigation.model.*">
+  <locations  
+    class = "java.util.ArrayList">
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.tale.qa.compose_quiz.question_tab.Question_tab_Activity"/>
+      <point      
+        x = "-76"      
+        y = "40"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.tale.qa.File_support"/>
+      <point      
+        x = "1452"      
+        y = "24"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.tale.qa.compose_quiz.ktc_tab.Modify_note_tab"/>
+      <point      
+        x = "828"      
+        y = "200"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.tale.qa.compose_quiz.ktc_tab.Activity_Ktc_tab"/>
+      <point      
+        x = "648"      
+        y = "248"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.tale.qa.compose_quiz.ktc_tab.Notepad_tab"/>
+      <point      
+        x = "700"      
+        y = "300"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.tale.qa.student.Student_Login"/>
+      <point      
+        x = "750"      
+        y = "350"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.tale.qa.Teacher1Activity"/>
+      <point      
+        x = "800"      
+        y = "400"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.tale.qa.web_support.Web_support"/>
+      <point      
+        x = "850"      
+        y = "450"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.tale.qa.Compose_Quiz"/>
+      <point      
+        x = "900"      
+        y = "500"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.tale.qa.student.Student_Register"/>
+      <point      
+        x = "950"      
+        y = "550"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.tale.qa.MainActivity"/>
+      <point      
+        x = "1000"      
+        y = "600"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.tale.qa.student.Student1Activity"/>
+      <point      
+        x = "1048"      
+        y = "648"/>
+    </statePointEntry>
+  </locations>
+</navigationModel>

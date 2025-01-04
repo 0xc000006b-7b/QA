@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background_floating_material_dark">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            android:id="@+id/student_quiz_delete"
+            android:layout_gravity="center_vertical"
+            android:textSize="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/student_quiz_share"
+            android:paddingStart="10dp"
+            android:textAlignment="textStart"
+            android:layout_marginTop="3dp"
+            android:background="@color/button_material_light" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Share"
+            android:id="@+id/student_quiz_share"
+            android:layout_gravity="center_vertical"
+            android:textSize="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/student_quiz_take"
+            android:paddingStart="10dp"
+            android:textAlignment="textStart"
+            android:layout_marginTop="3dp"
+            android:background="@color/button_material_light" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Take Quiz"
+            android:id="@+id/student_quiz_take"
+            android:layout_gravity="center_vertical"
+            android:textSize="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:paddingStart="10dp"
+            android:textAlignment="textStart"
+            android:layout_marginTop="3dp"
+            android:background="@color/button_material_light" />
+
+    </RelativeLayout>
+</RelativeLayout>

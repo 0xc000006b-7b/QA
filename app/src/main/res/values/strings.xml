@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">QA</string>
+    <string name="Release_name">Quiz App</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_student__register">Register</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="check_quiz">Check Quiz</string>
+    <string name="check_quiz_undone">Not yet check</string>
+</resources>

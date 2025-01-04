@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:weightSum="1"
+    android:orientation="vertical"
+    tools:context="com.tale.qa.activity_question_tab"
+    android:gravity="top">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/button_material_dark">
+
+        <Button
+            android:layout_width="132dp"
+            android:layout_height="match_parent"
+            android:id="@+id/upQuestTab"
+            android:text="Upload"
+            android:background="@color/button_material_dark" />
+
+        <Button
+            android:layout_width="141dp"
+            android:layout_height="match_parent"
+            android:id="@+id/addfQuestTab"
+            android:text="Add File"
+            android:background="@color/button_material_dark" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/createQuestTab"
+            android:text="Add"
+
+            android:background="@color/button_material_dark" />
+
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listViewQuestions"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
