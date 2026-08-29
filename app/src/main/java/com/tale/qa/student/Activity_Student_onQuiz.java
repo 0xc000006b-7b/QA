@@ -1,12 +1,12 @@
 package com.tale.qa.student;
 
-import android.app.AlertDialog;
+import androidx.appcompat.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.database.Cursor;
 import android.os.Environment;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.format.DateFormat;
 import android.view.KeyEvent;
@@ -95,7 +95,7 @@ public class Activity_Student_onQuiz extends AppCompatActivity {
 
     public void Student_Submit_Quiz()
     {
-        android.app.AlertDialog.Builder builder = new android.app.AlertDialog.Builder(Activity_Student_onQuiz.this);
+        androidx.appcompat.app.AlertDialog.Builder builder = new androidx.appcompat.app.AlertDialog.Builder(Activity_Student_onQuiz.this);
         builder.setTitle("Submit");
         builder.setIcon(android.R.drawable.ic_dialog_alert);
 
@@ -127,7 +127,7 @@ public class Activity_Student_onQuiz extends AppCompatActivity {
                     }
                 });
 
-        android.app.AlertDialog alertDialog = builder.create();
+        androidx.appcompat.app.AlertDialog alertDialog = builder.create();
         alertDialog.show();
     }
 
@@ -178,7 +178,7 @@ public class Activity_Student_onQuiz extends AppCompatActivity {
     {
         if ((keyCode == KeyEvent.KEYCODE_BACK))
         {
-            android.app.AlertDialog.Builder builder = new android.app.AlertDialog.Builder(Activity_Student_onQuiz.this);
+            androidx.appcompat.app.AlertDialog.Builder builder = new androidx.appcompat.app.AlertDialog.Builder(Activity_Student_onQuiz.this);
             builder.setTitle("WARNING");
             builder.setIcon(android.R.drawable.ic_dialog_alert);
 
@@ -210,7 +210,7 @@ public class Activity_Student_onQuiz extends AppCompatActivity {
                         }
                     });
 
-            android.app.AlertDialog alertDialog = builder.create();
+            androidx.appcompat.app.AlertDialog alertDialog = builder.create();
             alertDialog.show();
         }
         return super.onKeyDown(keyCode, event);
