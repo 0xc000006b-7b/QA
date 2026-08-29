@@ -1,5 +1,6 @@
 package com.tale.qa.file_manager;
 
+import androidx.appcompat.app.AppCompatActivity;
 import android.app.ListActivity;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -90,7 +91,7 @@ public class ListFileActivity extends ListActivity {
             //Toast.makeText(this, filename + " is not a directory", Toast.LENGTH_LONG).show();
             //-------------------------- GET CONTENT OF THE FILE --------------------------------//
 
-            android.app.AlertDialog.Builder builder = new android.app.AlertDialog.Builder(ListFileActivity.this);
+            androidx.appcompat.app.AlertDialog.Builder builder = new androidx.appcompat.app.AlertDialog.Builder(ListFileActivity.this);
             builder.setTitle("GET FILE?");
             builder.setIcon(android.R.drawable.ic_dialog_alert);
 
@@ -136,7 +137,7 @@ public class ListFileActivity extends ListActivity {
                         }
                     });
 
-            android.app.AlertDialog alertDialog = builder.create();
+            androidx.appcompat.app.AlertDialog alertDialog = builder.create();
             alertDialog.show();
 
            // }else{Toast.makeText(this, "Oops, Sometimes something really happen.", Toast.LENGTH_LONG).show();}
