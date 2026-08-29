@@ -4,7 +4,7 @@ import android.app.Dialog;
 import android.content.Context;
 import android.content.Intent;
 import android.database.Cursor;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -272,16 +272,16 @@ public class Activity_Undone_child extends AppCompatActivity {
 
                     if(Character.toLowerCase(getContent.charAt(j)) == Character.toLowerCase(getAns.charAt(k))){
                        if(getContent.charAt(j) != ' '){
-                           countCorrect+=1;
+                            countCorrect+=1;
+                         }
+                        else if(getAns.charAt(k) == ' '){countCorrect+=0;}
+                         else{
+                            countCorrect+=0;
                         }
-                       else if(getAns.charAt(k) == ' '){countCorrect+=0;}
-                        else{
-                           countCorrect+=0;
-                       }
 
-                    }
-                    else{countCorrect+=0;}
-                } */
+                     }
+                     else{countCorrect+=0;}
+                 } */
                 // We Use StringTokenizer to split the string into word
                 StringTokenizer theContent = new StringTokenizer(getContent);
                 StringTokenizer theAnswer = new StringTokenizer(getAns);
@@ -306,7 +306,6 @@ public class Activity_Undone_child extends AppCompatActivity {
 
         }
     }
-
 
 
 
